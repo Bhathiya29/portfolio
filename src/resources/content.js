@@ -282,7 +282,7 @@ const about = {
         ),
       },
       {
-        name: "Trinity College Kandy, Srilanka",
+        name: "Trinity College Kandy, Sri Lanka",
         description: (
           <>
             {" "}
