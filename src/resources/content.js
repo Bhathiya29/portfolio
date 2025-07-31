@@ -63,7 +63,7 @@ const home = {
         Recent project: <strong className="ml-4">Insight Pulse</strong>
       </>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "#",
   },
   subline: (
     <>
