@@ -30,17 +30,17 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Bhathiya29",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/bhathiya-dissanayake",
   },
   {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    name: "Twitter",
+    icon: "x",
+    link: "#",
   },
   {
     name: "Email",
@@ -60,7 +60,7 @@ const home = {
     display: true,
     title: (
       <>
-        Recent project: <strong className="ml-4">Cogni Assess</strong>
+        Recent project: <strong className="ml-4">Insight Pulse</strong>
       </>
     ),
     href: "/work/building-once-ui-a-customizable-design-system",
@@ -88,7 +88,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendar.app.google/Hs5Sji5o5Tpc9jaH9",
   },
   intro: {
     display: true,
@@ -141,8 +141,14 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/project-01/IMG_1.jpg",
+            alt: "Software Engineering",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/IMG_2.jpg",
+            alt: "Software Engineering",
             width: 16,
             height: 9,
           },
@@ -504,7 +510,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Here are some cool blogs...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route

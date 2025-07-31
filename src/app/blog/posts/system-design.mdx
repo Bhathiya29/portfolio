@@ -1,0 +1,109 @@
+---
+title: "Top 10 System Design Concepts You Must Know"
+summary: "Master the core concepts behind scalable, resilient, and efficient system design. From load balancing to eventual consistency, these principles are the backbone of modern architecture."
+image: "/images/og/SystemDesign.png"
+publishedAt: "2025-07-31"
+tag: "System Design"
+---
+
+## Overview
+
+System design is at the heart of building scalable, high-performance software systems. Whether you're preparing for tech interviews or architecting real-world platforms, understanding these core concepts is essential.
+
+This article breaks down the **Top 10 System Design Concepts** every engineer should understand, with practical examples and terminology.
+
+---
+
+## 1. Load Balancing
+
+Distributes incoming traffic across multiple servers to ensure no single server becomes a bottleneck.
+
+- Types: Round Robin, Least Connections, IP Hash
+- Tools: Nginx, HAProxy, AWS Elastic Load Balancer
+
+---
+
+## 2. Caching
+
+Stores frequently accessed data in memory to reduce latency and load on databases.
+
+- Types: In-memory (Redis, Memcached), CDN caching
+- Techniques: Write-through, Write-around, Write-back
+
+---
+
+## 3. Database Sharding
+
+Splits a large database into smaller, faster, and more manageable parts called shards.
+
+- Horizontal vs. Vertical sharding
+- Key challenge: cross-shard joins and rebalancing
+
+---
+
+## 4. Indexing
+
+Improves read performance of databases by maintaining additional data structures for quick lookups.
+
+- Types: B-Tree, Hash, Composite indexes
+- Trade-off: Faster reads, slower writes and more storage
+
+---
+
+## 5. Asynchronous Processing
+
+Decouples components using message queues or background jobs to handle long-running tasks.
+
+- Tools: Kafka, RabbitMQ, Celery
+- Benefits: Resilience, fault tolerance, scalability
+
+---
+
+## 6. Rate Limiting
+
+Controls the rate of incoming requests to prevent abuse and ensure fair resource usage.
+
+- Strategies: Token Bucket, Leaky Bucket
+- Use Cases: API protection, DoS mitigation
+
+---
+
+## 7. Consistency Models
+
+Defines how data changes are visible across distributed systems.
+
+- Strong Consistency vs. Eventual Consistency
+- CAP Theorem trade-offs: Consistency, Availability, Partition Tolerance
+
+---
+
+## 8. Content Delivery Network (CDN)
+
+A globally distributed network of servers that delivers static content from locations closer to the user.
+
+- Improves load speed and reduces server load
+- Providers: Cloudflare, Akamai, AWS CloudFront
+
+---
+
+## 9. Redundancy and Replication
+
+Creates multiple instances of critical components to prevent single points of failure.
+
+- Active-Active vs. Active-Passive replication
+- Helps with failover and disaster recovery
+
+---
+
+## 10. Monitoring and Observability
+
+Ensures system health and quick incident response through logs, metrics, and alerts.
+
+- Tools: Prometheus, Grafana, ELK stack
+- Key concepts: SLOs, SLIs, SLAs
+
+---
+
+## Final Thoughts
+
+Mastering system design is less about memorizing buzzwords and more about applying the right patterns at the right scale

@@ -133,7 +133,7 @@ export default function About() {
                   name="calendar"
                   onBackground="brand-weak"
                 />
-                <Flex paddingX="8">Download Resume</Flex>
+                <Flex paddingX="8">Schedule a Call</Flex>
                 <IconButton
                   href={about.calendar.link}
                   data-border="rounded"
