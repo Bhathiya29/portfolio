@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # **Magic Portfolio by Once UI**
 
 View the [demo here](https://demo.magic-portfolio.com).
@@ -97,3 +98,6 @@ See `LICENSE.txt` for more information.
 # portfolio
 This is my developer portfolio website created using NEXT.Js
 >>>>>>> c4065d210abfcebe9fa295af7210e234dce1f47c
+=======
+
+>>>>>>> d0aef746b2ec36aa08699ca2e049bccbf1498975
