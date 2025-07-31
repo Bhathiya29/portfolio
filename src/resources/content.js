@@ -1,25 +1,25 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Bhathiya",
+  lastName: "Dissanayake",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "10x Software Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "bhathiyabandara87@gmail.com",
+  location: "Australia/Melbourne", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Subscribe to My Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about AI, Machine Learning, and share thoughts on the
+      intersection of creativity and engineering.
     </>
   ),
 };
@@ -55,15 +55,20 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building products that solve problems</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
+    title: (
+      <>
+        Recent project: <strong className="ml-4">Cogni Assess</strong>
+      </>
+    ),
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
+      I'm Bhathiya, a Software Engineer at{" IFS"}
+      , where I code intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -90,9 +95,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Bhathiya is a Melbourne-based software engineer with specialized skills
+        for transforming complex challenges into simple, elegant code solutions.
+        His work spans across MVP Developments, AI products, and the convergence
+        of design and technology.
       </>
     ),
   },
@@ -101,17 +107,35 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "IFS R&D",
+        timeframe: "2024 Sep - 2025 Feb",
+        role: "Software Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Conducted performance tuning and optimization of both front-end and
+            back-end code to ensure high-speed performance and low latency
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Designed and developed three scalable components on IFS Cloud,
+            including database diagrams resulting in an increase of system
+            efficiency by 28%.
+          </>,
+          <>
+            Designed and implemented a robust CI/CD pipeline for the IFS Academy
+            LMS, creating a new repository for the legacy codebase that
+            streamlined deployment processes and enhanced code quality through
+            automation
+          </>,
+          <>
+            Designed and developed three scalable components on IFS Cloud,
+            including database diagrams resulting in an increase of system
+            efficiency by 28%.
+          </>,
+          <>
+            Developed comprehensive documentation for the Academy LMS front-end
+            and played a key role in redesigning UI elements to enhance user
+            experience and functionality. (Over 10,000 Customers and Company
+            Employees take courses on this LMS)
           </>,
         ],
         images: [
@@ -125,17 +149,83 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "University of Westminster",
+        timeframe: "2024 Sep - 2025 Feb",
+        role: "Visiting Lecturer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Achieved a 30% average improvement in student performance in
+            Advanced Client Side Programming Module through personalized
+            tutoring and tailored lesson plans.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Developed an online learning program that increased student
+            engagement by 40%, benefiting over 100 students enrolled in the
+            module.
+          </>,
+          <>
+            Tutorials I conducted led to a significant increase in students'
+            confidence in developing the client-side of web applications, as
+            reflected in self-assessment surveys.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "IFS R&D",
+        timeframe: "2022 June - 2023 July",
+        role: "Intern Software Engineer",
+        achievements: [
+          <>
+            Designed and Developed multiple IFS ERP components with their
+            corresponding Database Diagrams with high Scalability and suitable
+            Design Patterns
+          </>,
+          <>
+            Solved over 500 technical bugs on different IFS Applications (IFS
+            Cloud, IFS EE, IFS Aurena) (41% Higher efficiency than the average
+            software engineer at the company)
+          </>,
+          <>
+            Optimized Database Queries for IFS Customers to increase query
+            efficiency (IFS Cloud)
+          </>,
+          <>
+            Collaborated and worked with Developers and Clients from Germany,
+            France, England USA, Australia, India and Sri Lanka.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Webserce",
+        timeframe: "Jan 2022 - Nov 2022",
+        role: "Lead Engineer/Founder",
+        achievements: [
+          <>
+            Founded and Led Development of Multiple MVPs: Spearheaded the
+            creation of multiple MVPs (Minimum Viable Products) from concept to
+            launch, using Python, React, Node.js, and AWS to deliver functional
+            and scalable solutions.
+          </>,
+          <>
+            Led the development of both front-end (React) and back-end (Node.js)
+            components, ensuring seamless integration with MongoDB and AWS for
+            cloud infrastructure.
+          </>,
+          <>
+            Built and deployed machine learning models, conducted extensive data
+            analysis, and used data-driven insights to inform business
+            decisions.
+          </>,
+          <>
+            Oversaw the entire product lifecycle from idea generation and
+            development to testing, deployment, and iterative improvement,
+            ensuring timely and high-quality delivery.
+          </>,
+          <>
+            Designed and implemented cloud infrastructure on AWS, optimizing for
+            scalability, security, and cost efficiency
           </>,
         ],
         images: [],
@@ -147,50 +237,265 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "RMIT University, Melbourne",
+        description: (
+          <>
+            {" "}
+            <p>
+              <b>Master of Data Science.</b>
+            </p>
+            <br></br>
+            <ul>
+              <li>Specialized in AI and Big Data</li>
+              <li>WAM 86.5% (High Distinction)</li>
+            </ul>
+          </>
+        ),
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "University of Westminster, London",
+        description: (
+          <>
+            <p>
+              <b>Bachelor of Engineering (Software Engineering) (Hons)</b>
+            </p>
+            <br></br>
+            <ul>
+              <li>Grade: First Class Honors</li>
+              <li>
+                One Research Publication on IEEE (DOI:
+                10.1109/ICARC64760.2025.10963217)
+              </li>
+              <li>
+                Research : Machine Learning, AI, Deep Learning, NLP and
+                Sentiment Analysis
+              </li>
+              <li>Department - School of Computer Science and Engineering.</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        name: "Trinity College Kandy, Srilanka",
+        description: (
+          <>
+            {" "}
+            <p>
+              <b>High School (Grade One to Advance Level).</b>
+            </p>
+            <br></br>
+            <ul>
+              <li>GCE Advanced Level -2019</li>
+              <li>GCE Ordinary Level -2016</li>
+              <li>School Officer (School Officers Guild 2018-2019 )</li>{" "}
+              <li>College 1st Eleven Cricket team (2015-2018)</li>
+              <li>Senior and Junior House President(2018,2016)</li>
+            </ul>
+          </>
+        ),
       },
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
+    display: true,
+    title: "Technical Skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Back End Development",
+        description: (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+            {[
+              "Java",
+              "Python",
+              "Node.js",
+              "Express.js",
+              "PHP",
+              "Go",
+              "Spring Boot",
+              "Flask",
+              "PL/SQL",
+            ].map((skill) => (
+              <span
+                key={skill}
+                style={{
+                  background: "var(--color-neutral-alpha-weak)",
+                  padding: "0.3rem 0.6rem",
+                  borderRadius: "8px",
+                  fontSize: "0.9rem",
+                  fontWeight: 500,
+                }}
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        ),
+        images: [],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Front End Development",
+        description: (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+            {[
+              "React",
+              "JavaScript",
+              "TypeScript",
+              "Material UI",
+              "Bootstrap",
+              "HTML",
+              "CSS",
+            ].map((skill) => (
+              <span
+                key={skill}
+                style={{
+                  background: "var(--color-neutral-alpha-weak)",
+                  padding: "0.3rem 0.6rem",
+                  borderRadius: "8px",
+                  fontSize: "0.9rem",
+                  fontWeight: 500,
+                }}
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        ),
+        images: [],
+      },
+      {
+        title: "Database",
+        description: (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+            {["MySQL", "PostgreSQL", "MongoDB", "Oracle DB"].map((skill) => (
+              <span
+                key={skill}
+                style={{
+                  background: "var(--color-neutral-alpha-weak)",
+                  padding: "0.3rem 0.6rem",
+                  borderRadius: "8px",
+                  fontSize: "0.9rem",
+                  fontWeight: 500,
+                }}
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        ),
+        images: [],
+      },
+      {
+        title: "Cloud & DevOps",
+        description: (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+            {[
+              "AWS (EC2, S3, Lambda)",
+              "Azure",
+              "Kubernetes",
+              "Docker",
+              "CI/CD",
+            ].map((skill) => (
+              <span
+                key={skill}
+                style={{
+                  background: "var(--color-neutral-alpha-weak)",
+                  padding: "0.3rem 0.6rem",
+                  borderRadius: "8px",
+                  fontSize: "0.9rem",
+                  fontWeight: 500,
+                }}
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        ),
+        images: [],
+      },
+      {
+        title: "Tools & Technologies",
+        description: (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+            {["Git", "Selenium", "Postman", "Figma", "Jira", "Slack"].map(
+              (skill) => (
+                <span
+                  key={skill}
+                  style={{
+                    background: "var(--color-neutral-alpha-weak)",
+                    padding: "0.3rem 0.6rem",
+                    borderRadius: "8px",
+                    fontSize: "0.9rem",
+                    fontWeight: 500,
+                  }}
+                >
+                  {skill}
+                </span>
+              )
+            )}
+          </div>
+        ),
+        images: [],
+      },
+      {
+        title: "Data Science & Analytics",
+        description: (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+            {[
+              "Pandas",
+              "NumPy",
+              "Scikit-learn",
+              "TensorFlow",
+              "Matplotlib",
+              "R",
+              "Apache Spark",
+              "Hadoop",
+              "Power BI",
+            ].map((skill) => (
+              <span
+                key={skill}
+                style={{
+                  background: "var(--color-neutral-alpha-weak)",
+                  padding: "0.3rem 0.6rem",
+                  borderRadius: "8px",
+                  fontSize: "0.9rem",
+                  fontWeight: 500,
+                }}
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        ),
+        images: [],
+      },
+      {
+        title: "Soft Skills",
+        description: (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+            {[
+              "Agile Methodologies",
+              "Accountability",
+              "Results Driven",
+              "Collaboration",
+              "Leadership",
+              "Lifelong Learning",
+            ].map((skill) => (
+              <span
+                key={skill}
+                style={{
+                  background: "var(--color-neutral-alpha-weak)",
+                  padding: "0.3rem 0.6rem",
+                  borderRadius: "8px",
+                  fontSize: "0.9rem",
+                  fontWeight: 500,
+                }}
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        ),
+        images: [],
       },
     ],
   },
@@ -209,7 +514,7 @@ const work = {
   path: "/work",
   label: "Work",
   title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  description: `Dev and AI projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
